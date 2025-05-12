@@ -1,4 +1,4 @@
-site_name: Charmides Blog
+site_name: Fidelis Uwem Joseph
 site_url: https://charmides.github.io
 site_author: Fidelis Uwem Joseph (@charmides)
 site_description: A blog about software development, technology, and life.
@@ -6,7 +6,7 @@ site_description: A blog about software development, technology, and life.
 theme:
   name: material
   icon:
-    logo: material/rocket
+    logo: material/application-braces
   favicon: images/favicon.png
   features:
     - navigation.indexes
@@ -72,12 +72,10 @@ plugins:
       draft: true
   - search
 
+
 nav:
   - Home: index.md
-  - Projects:
-      - Overview: projects/index.md
-      - Featured Works: projects/featured-works.md
-      - Open Source: projects/open-source.md
+  - Projects: projects/index.md
   - Resume: 
       - about/resume.md
   - Blog:
