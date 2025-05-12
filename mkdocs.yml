@@ -1,0 +1,119 @@
+site_name: Charmides Blog
+site_url: https://charmides.github.io
+site_author: Fidelis Uwem Joseph (@charmides)
+site_description: A blog about software development, technology, and life.
+
+theme:
+  name: material
+  icon:
+    logo: material/rocket
+  favicon: images/favicon.png
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - header.autohide
+    - navigation.top
+    # Top navigation Feature
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    # Side navigation Feature
+
+    - navigation.sections
+  
+    # Table of Contents Feature 
+    - toc.integrate
+    - toc.follow
+
+    # Search Feature
+    - search.highlight
+    - search.suggest
+    - search.share
+ 
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-3
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+      
+  # Optional: Custom Colors
+  custom_colors:
+    - primary: "#673ab7"    # Deep Purple 500
+    - accent: "#9c27b0"     # Purple 500
+
+plugins:
+  - blog:
+      enabled: true
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: full
+      post_excerpt: required
+      post_excerpt_max_authors: 2
+      post_readtime: true
+      categories: true
+      categories_allowed:
+        - Search
+        - Performance
+      draft: true
+  - search
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Overview: projects/index.md
+      - Featured Works: projects/featured-works.md
+      - Open Source: projects/open-source.md
+  - Resume: 
+      - about/resume.md
+  - Blog:
+      - blog/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/joseph-fidelis
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/fidelis-joseph-uwem/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/le_charmides/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/charmides
+  
+  consent:
+    title: "Cookie Consent"
+    description: "We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our website and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our website better."
+    action: 
+      - accept 
+      - manage 
+    # cookies: TODO: Configure Cookies Policy
+
+  generator: true
+    
+copyright:
+  Copyright &copy; 2025 Fidelis Uwem Joseph 
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc : 
+      permalink: true
+      toc_depth: 2
+      title: On this page
