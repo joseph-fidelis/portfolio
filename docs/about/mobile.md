@@ -9,7 +9,7 @@ hide:
 
 **Senior / Principal Android Engineer | Remote**
 
-[josephfidelis7@gmail.com](mailto:josephfidelis7@gmail.com) | [LinkedIn](https://www.linkedin.com/in/fidelis-joseph-uwem/) | [Github](https://github.com/joseph-fidelis) | [Youtube](https://www.youtube.com/@konphidense_man)
+[Email](mailto:josephfidelis7@gmail.com) | [LinkedIn](https://www.linkedin.com/in/fidelis-joseph-uwem/) | [Github](https://github.com/joseph-fidelis) | [Youtube](https://www.youtube.com/@konphidense_man)
 
 ---
 

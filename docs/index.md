@@ -6,19 +6,18 @@ hide:
 ---
 
 <div style="display: flex; gap: 2rem; align-items: flex-start;">
-  <div style="flex-shrink: 0;">
+  <div style="flex-shrink: 0; padding-left: 1rem; padding-right: 1rem;">
     <img src="assets/profile_image.gif" alt="Fidelis Uwem Joseph" style="max-width: 300px; border-radius: 8px;" />
   </div>
-  <div style="flex: 1;">
+  <div style="flex: 1; padding-left: 1rem; padding-right: 1rem;">
+   
+ Hi, I'm <b>Fidelis Uwem Joseph</b>, a Software Engineer specializing in the design and delivery of 
+<b>enterprise-grade software systems</b> across mobile, web, backend, automation, and cloud infrastructure.
+I work with organizations to build <b>secure, scalable, and maintainable platforms</b> using PHP (Laravel, SlimPHP), Python (FastAPI, Django), 
+and modern mobile and frontend frameworks. My experience spans across working with distributed teams, aligning engineering execution with business objectives, 
+and delivering systems that support growth, compliance, and operational resilience.
 
-## Welcome
-
-Hi, I'm **Fidelis Uwem Joseph**  A Software Engineer specializing in the design and delivery of **enterprise-grade software systems** across mobile, web, backend, automation, and cloud infrastructure.
-
-I work with organizations to build **secure, scalable, and maintainable platforms** using PHP (Laravel, SlimPHP), Python (FastAPI, Django), and modern mobile and frontend frameworks. My experience spans working with distributed teams, aligning engineering execution with business objectives, and delivering systems that support growth, compliance, and operational resilience.
-
-I am experienced in **remote and asynchronous enterprise environments**, collaborating closely with product, engineering, and operations teams to deliver reliable solutions that integrate cleanly into existing technology ecosystems.
-
+I am experienced in <b>remote and asynchronous enterprise environments</b>, collaborating closely with product, engineering, and operations teams to deliver reliable solutions that integrate cleanly into existing technology ecosystems.
   </div>
 </div>
 
@@ -84,7 +83,7 @@ I prioritize architectures that support **team scalability**, **system evolution
 
 ## Automation & Systems Integration
 
-**Make.com · Zapier · Google Apps Script · Airtable · Python**
+**N8N · Make.com · Zapier · Google Apps Script · Airtable · Python**
 
 I help enterprises reduce operational overhead by automating workflows and integrating disparate systems. My work includes:
 
@@ -123,9 +122,9 @@ I design and build internal tools and libraries that improve developer productiv
 
 * Reusable libraries and platform-specific plugins
 * Internal dashboards and tooling using **NiceGUI** and **PyWebIO**
-* Automated document generation with **ReportLab**
+* Automated document generation with **ReportLab** and **Jinja2 Templating**
 * Image processing workflows using **Pillow**
-* Geospatial and mapping integrations with **Leaflet**
+* Geospatial and mapping integrations with **Leaflet**, **Google Maps**, and **Mapbox**
 
 These tools are built with an emphasis on **reusability, governance, and maintainability**.
 
