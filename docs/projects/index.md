@@ -29,3 +29,8 @@ Here are some of my featured mobile development projects:
 </div>
 
 </div>
+
+## Full-Stack Development Projects
+
+## Automation Projects
+

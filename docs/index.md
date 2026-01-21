@@ -1,47 +1,144 @@
 ---
-title: Welcome to Charmides Blog
+title: Welcome to Charmides Personal Portfolio
 description: Software Developer & Technical Writer
 hide: 
  - navigation
 ---
 
-<p align="left">
-  <img src="assets/image_fx_small_2.jpg" alt="Fidelis Uwem Joseph"  style="" />
-</p>
+<div style="display: flex; gap: 2rem; align-items: flex-start;">
+  <div style="flex-shrink: 0;">
+    <img src="assets/profile_image.gif" alt="Fidelis Uwem Joseph" style="max-width: 300px; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1;">
 
-# Welcome 👋 
+## Welcome
 
- 
-Hi, I'm Fidelis Uwem Joseph
-I'm a Software Engineer with a passion for building clean, scalable, and efficient systems using PHP (Laravel, SlimPHP), Python (FastAPI). Over the past few years, I’ve contributed to and led projects for startups and international teams, shipping robust APIs, automating business processes, and integrating cloud-native services.
+Hi, I'm **Fidelis Uwem Joseph**  A Software Engineer specializing in the design and delivery of **enterprise-grade software systems** across mobile, web, backend, automation, and cloud infrastructure.
 
-I thrive in remote, asynchronous environments, and I enjoy solving complex challenges. Whether it's building a document signing microservice, customizing a WordPress plugin with Airtable automations, or deploying serverless workflows on GCP or AWS.
+I work with organizations to build **secure, scalable, and maintainable platforms** using PHP (Laravel, SlimPHP), Python (FastAPI, Django), and modern mobile and frontend frameworks. My experience spans working with distributed teams, aligning engineering execution with business objectives, and delivering systems that support growth, compliance, and operational resilience.
+
+I am experienced in **remote and asynchronous enterprise environments**, collaborating closely with product, engineering, and operations teams to deliver reliable solutions that integrate cleanly into existing technology ecosystems.
+
+  </div>
+</div>
 
 ## What I Do
 
-I specialize in designing and building systems, from API architecture and cloud deployment to automation and infrastructure management.
+I help organizations **design, implement, and operate production systems** with an emphasis on:
 
-I enjoy working across the stack when needed, but my sweet spot is in solving tough backend challenges and integrating different platforms into one seamless experience.
+* Architectural clarity and long-term maintainability
+* System reliability, security, and performance
+* Seamless integration across platforms and services
+* Automation of operational and business workflows
 
-- **[Mobile Development](/skill/mobile.md)**  
-  I develop robust and intuitive cross-platform mobile applications using Flutter, Android with Kotlin, Kotlin Multiplatform (KMP), and React Native. My focus is on crafting seamless user experiences while integrating mobile apps with scalable and efficient backend systems. I also build custom React Native libraries to extend native functionality and streamline app development across platforms.
+I work comfortably across the full stack, where enterprise systems often face the greatest complexity.
 
-- **[Backend Development](/skill/backend.md)**  
-  I specialize in architecting and implementing scalable backend systems and APIs with PHP (Laravel, SlimPHP) and Python (FastAPI). My solutions emphasize security, maintainability, and high performance for modern web and mobile applications.
+---
 
-- **[Automations](/skill/automations.md)**  
-  I design and implement automation workflows that streamline business processes, eliminate repetitive tasks, and boost operational efficiency. I leverage platforms like Make.com, Zapier, Google Apps Script, and Airtable Automations to connect services and orchestrate complex workflows. Additionally, I use Python—with libraries like Selenium—to build custom scripts for browser automation, data scraping, and backend integrations when off-the-shelf solutions fall short.
+## Mobile Engineering
 
-- **[Library Specific Implementation](/skill/library.md)**  
-  I create and customize software libraries and plugins tailored to specific project needs, with a focus on modularity, reusability, and seamless integration across platforms. My experience includes building UI-driven tools using NiceGUI and PyWebIO, generating dynamic documents with ReportLab, handling image processing with Pillow, and integrating interactive maps using Leaflet. These tools enable me to deliver robust solutions for dashboards, automation workflows, and geospatial applications with minimal overhead.
+**Flutter · React Native · Kotlin Multiplatform (KMP) · Jetpack Compose**
 
-## Latest Posts
-<!-- This section will be auto-populated by the blog plugin -->
+I develop **enterprise-ready mobile applications** that meet high standards for performance, stability, and maintainability. My work includes:
 
-## Featured Projects
-<!-- Add your featured projects here -->
+* Building cross-platform mobile applications with **Flutter** and **React Native**
+* Implementing shared business logic and SDKs using **Kotlin Multiplatform (KMP)**
+* Developing modern Android interfaces with **Jetpack Compose**
+* Designing mobile architectures that align with backend domain models
+* Creating custom native modules and internal libraries to extend platform capabilities
+
+My mobile solutions are designed to integrate seamlessly with enterprise backend systems and evolving infrastructure.
+
+---
+
+## Frontend Engineering
+
+**Nuxt.js · Vue.js**
+
+I build structured, maintainable frontend applications that support complex workflows and enterprise user requirements. This includes:
+
+* Developing SPA and SSR applications using **Vue.js** and **Nuxt.js**
+* Implementing component-driven and design-system–aligned architectures
+* Integrating authentication, authorization, and enterprise APIs
+* Optimizing performance, accessibility, and deployment pipelines
+
+The focus is on **consistency, usability, and long-term sustainability** rather than short-term feature velocity.
+
+---
+
+## Backend & API Engineering
+
+**Django · FastAPI · Laravel · SlimPHP**
+
+Backend engineering is my core strength. I design systems that can operate reliably at scale while remaining adaptable to changing business needs. My experience includes:
+
+* Designing and implementing RESTful and event-driven APIs
+* Building modular monoliths and microservices architectures
+* Implementing enterprise-grade security, authentication, and authorization
+* Ensuring data integrity, observability, and fault tolerance
+* Writing clean, well-documented, and testable codebases
+
+I prioritize architectures that support **team scalability**, **system evolution**, and **operational transparency**.
+
+---
+
+## Automation & Systems Integration
+
+**Make.com · Zapier · Google Apps Script · Airtable · Python**
+
+I help enterprises reduce operational overhead by automating workflows and integrating disparate systems. My work includes:
+
+* Designing multi-step automation pipelines across internal and third-party systems
+* Orchestrating data flows using **Airtable Automations**
+* Implementing custom logic with **Google Apps Script**
+* Developing Python-based automation tools for:
+
+  * API orchestration and backend jobs
+  * Browser automation and data extraction
+  * Custom integrations where no-code tools are insufficient
+
+These solutions are designed to be **auditable, maintainable, and resilient** in production environments.
+
+---
+
+## DevOps & Cloud Infrastructure
+
+**AWS · GCP · CI/CD · Serverless**
+
+I support enterprise systems with reliable and repeatable infrastructure practices:
+
+* Deploying and managing applications on **AWS** and **Google Cloud Platform**
+* Designing **serverless and container-based architectures**
+* Implementing CI/CD pipelines with automated testing and deployment
+* Managing configuration, secrets, and environment isolation
+* Ensuring logging, monitoring, and operational visibility
+
+My DevOps approach focuses on **risk reduction, consistency, and operational maturity**.
+
+---
+
+## Internal Tools & Library Development
+
+I design and build internal tools and libraries that improve developer productivity and operational efficiency, including:
+
+* Reusable libraries and platform-specific plugins
+* Internal dashboards and tooling using **NiceGUI** and **PyWebIO**
+* Automated document generation with **ReportLab**
+* Image processing workflows using **Pillow**
+* Geospatial and mapping integrations with **Leaflet**
+
+These tools are built with an emphasis on **reusability, governance, and maintainability**.
+
+---
 
 ## Skills & Expertise
-- Software Development
-- Technical Writing
-- Open Source Contribution
+
+* Enterprise Software Architecture
+* Backend & API Engineering
+* Mobile & Frontend Platforms
+* Automation & Systems Integration
+* Cloud Infrastructure & DevOps
+* Technical Documentation & Knowledge Sharing
+* Open Source & Internal Platform Development
+
+---
